@@ -129,6 +129,26 @@
 				<Layers>GH:openstreetmap</Layers>
 				<Styles></Styles>
 			</TileSet>
+			<CustomLayer>
+				<Name>GH:punti_vari</Name>
+				<Title>punti_vari</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
+			<CustomLayer>
+				<Name>GH:ripetitori</Name>
+				<Title>ripetitori</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
+			<CustomLayer>
+				<Name>GH:working_area</Name>
+				<Title>working_area</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
+			<CustomLayer>
+				<Name>GH:moduli_tlc</Name>
+				<Title>moduli_tlc</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
